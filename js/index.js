@@ -70,7 +70,7 @@ for (var i = 0; i < document.querySelectorAll(".selection").length; i++) {
         var limit = 5
 
         if (yourScore == limit) {
-            alert("Congratulation! You Won!")
+            alert("Congratulations! You Won!")
             window.location.reload()
         } else if (oponentScore == limit) {
             alert("Game Over! You Lose!")
